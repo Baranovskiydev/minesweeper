@@ -159,7 +159,7 @@ let initial_state: CellParams[][] = [];
     cells[x][y].isFlaged = true;
     setMines(mines => mines - 1);
     setCell(cells)
-    console.log("fs")
+    // console.log("fs")
   }
 
   function flagUnSet(x:number, y:number){
@@ -167,14 +167,14 @@ let initial_state: CellParams[][] = [];
     cells[x][y].isQuestion = true;
     setMines(mines => mines + 1);
     setCell(cells)
-    console.log("fus")
+    // console.log("fus")
   }
 
   function questionUnset(x:number, y:number){
     cells[x][y].isQuestion = false;
     setRerender(rerender => rerender + 1);
     setCell(cells)
-    console.log("qus")
+    // console.log("qus")
   }
 
   function generateCells(Field: number[][],xcur:number,ycur:number,isInit:boolean): CellParams[][]{

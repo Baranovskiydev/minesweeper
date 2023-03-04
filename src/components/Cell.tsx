@@ -99,7 +99,7 @@ export default function Cell(props: CellProps): JSX.Element {
         props.startGame();
         }
       else if (!props.isOpened && !props.isFlaged && !props.isWin && !props.isLost){
-        console.log(props.isFlaged)
+        // console.log(props.isFlaged)
         props.openCell();
         setCellStyle(lclick[props.value]);
         }

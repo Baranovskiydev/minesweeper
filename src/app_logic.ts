@@ -92,6 +92,7 @@ export default class MineField {
     restartNewGame() {
         this.setTimer();
         this.generateField();
+        this._bombsPos = [];
         this._isWon = false;
         this._isFaield =false;
         this._flags = 0;
