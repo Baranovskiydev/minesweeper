@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mynerve', cursive;
+}
+
+body{
+    background-color: #009999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0C0C0;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    border-bottom: 3px solid #808080;
+    border-right: 3px solid #808080;
+    font-weight: 700;
+    margin-bottom: 100px;
+}

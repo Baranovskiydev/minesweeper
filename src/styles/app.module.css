@@ -1,0 +1,81 @@
+/*
+#C0C0C0 - background
+#FFFFFF - light side
+#808080 - dark side
+
+
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.frame{
+    /* main param */
+
+    background-color: #C0C0C0;
+    padding: 5px;
+
+    /* Border bulkness? */
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    border-bottom: 3px solid #808080;
+    border-right: 3px solid #808080;
+
+    /* Alighning */
+    width: max-content;
+
+}
+
+.frame__inside{
+    background-color: #C0C0C0;
+
+    /* Bulkness */
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-bottom: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+}
+
+.frame__inside__top{
+    background-color: #C0C0C0;
+    padding: 3px;
+
+    /* Bulkness */
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-bottom: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+    /* Align */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: max-content;
+    max-width: 100%;
+}
+
+
+/* Старое поле */
+
+
+.field{
+    margin: 4px;
+    background-color: #808080;
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-bottom: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+    width: fit-content;
+    height: fit-content;
+}
+
+.field_row{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 16px;
+}

@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+/* TIMER and BOMBS*/
+.display{
+    display: flex;
+    width: max-content;
+    flex-direction: row;
+}
+
+
+.digit_0{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/0.png)
+}
+.digit_1{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/1.png)
+}
+.digit_2{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/2.png)
+}
+.digit_3{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/3.png)
+}
+.digit_4{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/4.png)
+}
+.digit_5{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/5.png)
+}
+.digit_6{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/6.png)
+}
+.digit_7{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/7.png)
+}
+.digit_8{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/8.png)
+}
+.digit_9{
+    height: 23px;
+    width: 13px;
+    background-image: url(../../sprites/e-digits/9.png)
+}
+
+
+
+
+/* SMILE COMPONENT */
+.smile_button{
+    height: 26px;
+    width: 26px;
+    background-image: url("../../sprites/smiles/happy_bulge.png");
+}
+
+.smile_pressed{
+    height: 26px;
+    width: 26px;
+    background-image: url("../../sprites/smiles/happy_pressed.png");
+}
+
+.smile_scared{
+    height: 26px;
+    width: 26px;
+    background-image: url("../../sprites/smiles/scared.png");
+}
+
+.smile_thug{
+    height: 26px;
+    width: 26px;
+    background-image: url("../../sprites/smiles/thug.png");
+}
+
+.smile_dead{
+    height: 26px;
+    width: 26px;
+    background-image: url("../../sprites/smiles/dad.png");
+}
+
+/* СМАЙЛИК */
+
+.timer{
+    height: 23px;
+    width: 13px;
+
+}
+
+/* CELL COMPONENT */
+
+.cell_number1{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/1.png");
+}
+.cell_number2{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/2.png");
+}
+.cell_number3{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/3.png");
+}
+.cell_number4{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/4.png");
+}
+.cell_number5{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/5.png");
+}
+.cell_number6{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/6.png");
+}
+.cell_number7{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/7.png");
+}
+.cell_number8{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field-num/8.png");
+}
+.cell_closed{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field/cell_unmined.png");
+}
+.cell_empty{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field/cell_empty.png");
+}
+.cell_exploded{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field/cell_bomb_exploded.png");
+}
+.cell_unexploded{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field/cell_bomb_unexploded.png");
+}
+.cell_question{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field/cell_question.png");
+}
+.cell_flag{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field/cell_flag.png");
+}
+.cell_wrong{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../sprites/field/cell_bomb_wrongmark.png");
+}
+
+
+/* FIELD COMPONENT */
+
+.field{
+    margin: 4px;
+    background-color: #808080;
+    border-top: 3px solid #808080;
+    border-left: 3px solid #808080;
+    border-bottom: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+    width: fit-content;
+    height: fit-content;
+}
+
+.field_row{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 16px;
+}
