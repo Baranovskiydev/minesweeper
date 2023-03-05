@@ -98,7 +98,7 @@ export default function Cell(props: CellProps): JSX.Element {
       if (!props.isStarted && !props.isFlaged)  {
         props.startGame();
         }
-      else if (!props.isOpened && !props.isFlaged && !props.isWin && !props.isLost){
+      else if (!props.isOpened && !props.isFlaged && !props.isWin && !props.isLost && !props.isQuestion){
         // console.log(props.isFlaged)
         props.openCell();
         setCellStyle(lclick[props.value]);
